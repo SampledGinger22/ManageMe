@@ -1,0 +1,48 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  position: relative;
+}
+
+.themeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  margin-bottom: 8px;
+  color: var(--ant-color-text-heading);
+}
+
+.options {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 16px;
+}
+
+@media (max-width: 640px) {
+  .loginCard {
+    max-width: 100%;
+  }
+}
